@@ -3,12 +3,12 @@
 
         DisplayLink Ubuntu Software Release Note
 
-Version: v5.8.0
-Build: posix/63-3581-g15996285140 (33)
+Version: v6.0.0
+Build: posix/64-4618-g9095f62fa15 (24)
 
-Date: 21st July 2023
+Date: 12th April 2024
 
-Extensible Virtual Display Interface version included: v1.14.1 (83bb793)
+Extensible Virtual Display Interface version included: v1.14.4 (aa6b5a1)
 =============================================================================
 =============================================================================
 
@@ -16,7 +16,7 @@ Extensible Virtual Display Interface version included: v1.14.1 (83bb793)
 A. Introduction
 ===============
 
-This is DisplayLink Driver Software v5.8.0 for Ubuntu. It provides production quality support for DisplayLink USB 3.0 devices on specific variants of desktop Ubuntu Linux.
+This is DisplayLink Driver Software v6.0.0 for Ubuntu. It provides production quality support for DisplayLink USB 3.0 devices on specific variants of desktop Ubuntu Linux.
 
 The driver enables video support for products using DisplayLink USB 3.0 technology. Standard native Ubuntu drivers provide support for DisplayLink audio and ethernet interfaces.
 
@@ -44,6 +44,18 @@ I.  Future development
 
 C.  Bugs fixed in this release
 ==============================
+
+C.9  Changes in 6.0 release
+-----------------------------
+- DL-7xxx: Support for DP++ (HDMI) video
+- DL-7xxx: Added Unigraf UCD-400/500 for DisplayPort compliance testing
+- DL-6xxx series: incorrect image at 2560x1440@60 on some DisplayPort monitors
+- Added preliminary support for kernel 6.9
+- General stability updates and bug fixes
+
+C.8  Changes in 5.9 release
+-----------------------------
+- Drop support for Ubuntu 18.04
 
 C.8  Changes in 5.8 release
 -----------------------------
@@ -119,11 +131,11 @@ C.1  Changes in 5.4.0 release
 D. Supported O/S variants
 =========================
 
-This release has been prepared to be compatible with Ubuntu 23.04, 22.04, 21.10, 20.04, 19.04 and 18.04.
+This release has been prepared to be compatible with Ubuntu 23.04, 22.04 and 20.04.
 Other variants and editions may be compatible if they meet minimum O/S requirements, but are not supported by DisplayLink.
 
 The Software contains binaries which work on i686, amd64, armv7 and aarch64 architectures.
-Supported Linux Kernel version range is from 4.15 to 6.5.
+Supported Linux Kernel version range is from 4.15 to 6.8.
 Minimum supported Xorg version is 1.16, minimum supported Mutter (Wayland) version is 3.32.
 
 E. Release components
