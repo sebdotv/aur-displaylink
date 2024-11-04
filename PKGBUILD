@@ -5,9 +5,9 @@
 # Contributor: rhabbachi
 
 pkgname=displaylink
-pkgver=6.0
-_releasedate=2024-05
-_pkgfullver=6.0.0-24
+pkgver=6.1
+_releasedate=2024-10
+_pkgfullver=6.1.0-17
 pkgrel=0
 pkgdesc="Linux driver for DisplayLink devices"
 arch=('i686' 'x86_64' 'arm' 'armv6h' 'armv7h' 'aarch64')
@@ -24,8 +24,8 @@ source=(displaylink-driver-${pkgver}.zip::https://www.synaptics.com/sites/defaul
         99-displaylink.rules
 	displaylink.service
         displaylink-sleep.sh)
-sha256sums=('fc7aa51afabe6a19ee0423b749c95d242669f005f4d8733c2b821f33399db9c7'
-            'b2b42abdbf04fab78a8d7f9d36a28ee30d0a35e3c993ba733cf9adfabe3ebcd1'
+sha256sums=('449815ad7f98f0dbf3d74e9787e5bd37db912c2d953b4d1f049792f2fb3b7cac'
+            'e1ac7be638320edb56e212b624dd2d941376951bcba9f1c6ebd7a819c98c40e0'
             '2f81fea43332a62b2cf1dd47e56ea01caf1e886bcd16c3f82b18bfe148fb21a9'
             '53aac00fecfc04ec9e3d88ea13f5bf7bb05f669ff33e1834ba671f9240fe9641'
             '530c488fa9b2833ff64611ff2b533f63212a85f8ebed446d5a4d51cf9a52c7ea'
